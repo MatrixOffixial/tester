@@ -68,7 +68,7 @@ webhooks.on("pull_request.opened", async ({ payload }) => {
       owner: repository.owner.login,
       repo: repository.name,
       issue_number: pull_request.number,
-      body: `**GitMoon AI Review** 🌙\n\n---\n\n${reviewComment}`,
+      body: `**RexkyGit AI Review** 🌙\n\n---\n\n${reviewComment}`,
     });
   } catch (error) {
       console.error("Error processing PR:", error);
