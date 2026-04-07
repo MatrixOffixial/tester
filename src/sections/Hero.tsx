@@ -89,7 +89,7 @@ export default function Hero() {
               </span>
             </h1>
             <p className="text-lg lg:text-xl text-gray-600 mb-8 max-w-lg">
-              GitVeilcy helps you manage GitHub repositories directly from mobile — commit, upload, and document with ease.
+              RexkyGit helps you manage GitHub repositories directly from mobile — commit, upload, and document with ease.
             </p>
             
             <div className="flex flex-col sm:flex-row items-start justify-start gap-4 sm:gap-6">
@@ -112,9 +112,9 @@ export default function Hero() {
           <div className="md:w-1/2 w-full flex flex-col items-center mt-8 md:mt-0">
             <img 
               src="/avatar.png" 
-              alt="GitVeilcy Illustration" 
+              alt="RexkyGit Illustration" 
               className="hidden md:block w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-auto rounded-lg"
-              onError={(e) => { e.currentTarget.src = 'https://placehold.co/600x400/e5e7eb/1f2937?text=GitVeilcy'; }}
+              onError={(e) => { e.currentTarget.src = 'https://placehold.co/600x400/e5e7eb/1f2937?text=RexkyGit'; }}
             />
           </div>
 
